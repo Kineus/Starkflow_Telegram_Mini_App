@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import './index.css';
 import Arrow from './icons/Arrow';
-import { bear, coin, highVoltage, notcoin, rocket, trophy } from './images';
+import { bear, coin, highVoltage, rocket, starrk, trophy } from './images';
 
 const App = () => {
   const [points, setPoints] = useState(10000);
@@ -104,7 +104,7 @@ const App = () => {
 
         <div className="flex-grow flex items-center justify-center">
           <div className="relative mt-4" onClick={handleClick}>
-            <img src={notcoin} width={254} height={254} alt="notcoin" />
+            <img src={starrk} width={210} height={210} alt="notcoin" />
             {clicks.map((click) => (
               <div
                 key={click.id}
